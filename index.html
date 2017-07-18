@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CSS Variables - Hongkiat.com</title>
+
+<!--  jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../_nav/js/jquery.js"><\/script>')</script>
+
+<!-- demo scripts -->
+<style type="text/css" media="screen">
+html {
+	-webkit-var-primary-color: #0683be;
+	var-primary-color: #0683be;
+}
+body {
+	background-color: -webkit-var(primary-color);
+	background-color: var(primary-color);
+}
+.browser-support {
+	font-size: 30px;
+	font-family: Arial;
+	color: #eee;
+	width: 550px;
+	text-align: center;
+	margin: 150px auto;
+}
+</style>
+
+<!-- nav script -->
+<script src="../_nav/js/nav.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<!-- nav meta -->
+<div class="demo-meta">
+	<h1 class="demo-title">CSS Variables</h1>
+	<p class="demo-desc">Variable finally comes to CSS. This demo shows wheather your browser support it or not.</p>
+</div>
+
+<div class="browser-support">
+	<p>If your browser supports <strong>CSS Variable</strong>, you should see the background in <strong>blue</strong> color.</p>
+</div>
+
+</body>
+</html>
